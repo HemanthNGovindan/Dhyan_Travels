@@ -5,7 +5,7 @@ var cors = require('cors');
 var business = require('./business');
 var Promise = require('promise');
 // var req = res = {};
-var allowedOrigins = ['http://localhost:3000'];
+var allowedOrigins = ['http://www.nupinmathew.online'];
 var corsOptions = {
     origin: function (origin, callback) {
         var originIsWhitelisted = allowedOrigins.indexOf(origin) !== -1;
