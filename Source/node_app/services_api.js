@@ -22,10 +22,10 @@ app.use(bodyparser.urlencoded({
 
 app.post('/', function (req, res) {
     console.log(req.body);
-    res.send('Empty Route');
+    res.send('Empty Route!');
 })
 app.get('/', function (req, res) {
-    res.send('Empty Route')
+    res.send('Empty Route!!')
 })
 
 
